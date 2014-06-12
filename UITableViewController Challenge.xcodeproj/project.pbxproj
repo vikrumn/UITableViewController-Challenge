@@ -14,13 +14,13 @@
 		AE36F8FC194997E400FA48F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36F8FB194997E400FA48F3 /* main.m */; };
 		AE36F900194997E400FA48F3 /* VNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36F8FF194997E400FA48F3 /* VNAppDelegate.m */; };
 		AE36F903194997E400FA48F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE36F901194997E400FA48F3 /* Main.storyboard */; };
-		AE36F906194997E400FA48F3 /* VNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36F905194997E400FA48F3 /* VNViewController.m */; };
 		AE36F908194997E400FA48F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE36F907194997E400FA48F3 /* Images.xcassets */; };
 		AE36F90F194997E400FA48F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE36F90E194997E400FA48F3 /* XCTest.framework */; };
 		AE36F910194997E400FA48F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE36F8EF194997E400FA48F3 /* Foundation.framework */; };
 		AE36F911194997E400FA48F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE36F8F3194997E400FA48F3 /* UIKit.framework */; };
 		AE36F919194997E400FA48F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE36F917194997E400FA48F3 /* InfoPlist.strings */; };
 		AE36F91B194997E400FA48F3 /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36F91A194997E400FA48F3 /* UITableViewController_ChallengeTests.m */; };
+		AE36F92619499A5100FA48F3 /* VNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE36F92519499A5100FA48F3 /* VNTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		AE36F8FE194997E400FA48F3 /* VNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNAppDelegate.h; sourceTree = "<group>"; };
 		AE36F8FF194997E400FA48F3 /* VNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNAppDelegate.m; sourceTree = "<group>"; };
 		AE36F902194997E400FA48F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE36F904194997E400FA48F3 /* VNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNViewController.h; sourceTree = "<group>"; };
-		AE36F905194997E400FA48F3 /* VNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNViewController.m; sourceTree = "<group>"; };
 		AE36F907194997E400FA48F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE36F90D194997E400FA48F3 /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE36F90E194997E400FA48F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AE36F916194997E400FA48F3 /* UITableViewController ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		AE36F918194997E400FA48F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE36F91A194997E400FA48F3 /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		AE36F92419499A5100FA48F3 /* VNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNTableViewController.h; sourceTree = "<group>"; };
+		AE36F92519499A5100FA48F3 /* VNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				AE36F8FE194997E400FA48F3 /* VNAppDelegate.h */,
 				AE36F8FF194997E400FA48F3 /* VNAppDelegate.m */,
 				AE36F901194997E400FA48F3 /* Main.storyboard */,
-				AE36F904194997E400FA48F3 /* VNViewController.h */,
-				AE36F905194997E400FA48F3 /* VNViewController.m */,
+				AE36F92419499A5100FA48F3 /* VNTableViewController.h */,
+				AE36F92519499A5100FA48F3 /* VNTableViewController.m */,
 				AE36F907194997E400FA48F3 /* Images.xcassets */,
 				AE36F8F6194997E400FA48F3 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE36F900194997E400FA48F3 /* VNAppDelegate.m in Sources */,
-				AE36F906194997E400FA48F3 /* VNViewController.m in Sources */,
+				AE36F92619499A5100FA48F3 /* VNTableViewController.m in Sources */,
 				AE36F8FC194997E400FA48F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
